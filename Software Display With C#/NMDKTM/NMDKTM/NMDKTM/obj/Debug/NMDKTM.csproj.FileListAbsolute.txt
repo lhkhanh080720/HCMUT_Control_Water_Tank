@@ -27,3 +27,32 @@ C:\Users\USER\Desktop\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\zh
 C:\Users\USER\Desktop\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\obj\Debug\NMDKTM.csproj.CopyComplete
 C:\Users\USER\Desktop\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\Newtonsoft.Json.dll
 C:\Users\USER\Desktop\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\obj\Debug\NMDKTM.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\obj\Debug\NMDKTM.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\obj\Debug\NMDKTM.Form1.resources
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\obj\Debug\NMDKTM.Properties.Resources.resources
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\obj\Debug\NMDKTM.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\obj\Debug\NMDKTM.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\obj\Debug\NMDKTM.exe
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\obj\Debug\NMDKTM.pdb
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\NMDKTM.exe.config
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\NMDKTM.exe
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\NMDKTM.pdb
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\ZedGraph.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\ZedGraph.xml
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\USER\Desktop\BTL NMDKTM\Software Display With C#\NMDKTM\NMDKTM\NMDKTM\obj\Debug\NMDKTM.csproj.CopyComplete

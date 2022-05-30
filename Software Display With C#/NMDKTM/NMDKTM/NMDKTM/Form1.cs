@@ -20,7 +20,10 @@ namespace NMDKTM
             InitializeComponent();
         }
         int TickStart, intMode = 1;
-        string pause =  "9600" ;
+        string pause =  "115200" ;
+        int disText = 0;
+        StringBuilder outputValueBuilder = new StringBuilder();
+        float intcurrent;
         private void Connect_Click(object sender, EventArgs e)
         {
             if (comboBox1.Text == "") //errol 1: dont select com
@@ -76,15 +79,13 @@ namespace NMDKTM
             mypanne.XAxis.Scale.MajorStep = 5;
             zedGraphControl1.AxisChange();
             TickStart = Environment.TickCount;
+
+            SetPoint.Text = "0";
         }
 
-        public void draw(string setpoint, string current)
+        public void draw()
         {
-            double intsetpoint;
-            double intcurrent;
-            double.TryParse(setpoint, out intsetpoint);
-            double.TryParse(current, out intcurrent);
-            if (zedGraphControl1.GraphPane.CurveList.Count <= 0) return;
+            if (zedGraphControl1.GraphPane.CurveList.Count <= 0) return;//
             LineItem curve = zedGraphControl1.GraphPane.CurveList[0] as LineItem;
             LineItem curve1 = zedGraphControl1.GraphPane.CurveList[1] as LineItem;
             if (curve == null) return;
@@ -94,7 +95,7 @@ namespace NMDKTM
             if (list == null) return;
             if (list1 == null) return;
             double time = (Environment.TickCount - TickStart) / 1000.0;
-            list.Add(time, intsetpoint);
+            list.Add(time, disText);
             list1.Add(time, intcurrent);
             Scale xScale = zedGraphControl1.GraphPane.XAxis.Scale;
             if (time > xScale.Max - xScale.MajorStep)
@@ -114,14 +115,14 @@ namespace NMDKTM
             zedGraphControl1.Invalidate();
         }
 
-        String data = "";
         private void serialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
-            data += serialPort1.ReadExisting();
-            if (data.Length > 2)
+            outputValueBuilder.Append(serialPort1.ReadExisting());
+            if (outputValueBuilder.ToString().Length < 6)
             {
-                Invoke(new MethodInvoker(() => draw(data,data )));
-                data = "";
+                float.TryParse(outputValueBuilder.ToString(), out intcurrent);
+                draw();
+                outputValueBuilder.Clear();
             }
         }
 
@@ -141,12 +142,47 @@ namespace NMDKTM
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //draw("100", "200");
+        }
+        bool statusStart = true;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (statusStart == true)
+                {
+                    serialPort1.Write("ON");
+                    button1.Text = "STOP";
+                    button1.BackColor = Color.Red;
+                    statusStart = false;
+                }
+                else if (statusStart == false)
+                {
+                    serialPort1.Write("OFF");
+                    button1.Text = "START";
+                    button1.BackColor = Color.Lime;
+                    statusStart = true;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Error!");
+            }
+        }
+
+        private void zedGraphControl1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SetPoint_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void SendSP(object sender, EventArgs e)
         {
-            serialPort1.Write("#TEXT" + SetPoint.Text + "#\n");
+            serialPort1.Write(SetPoint.Text);
+            Int32.TryParse(SetPoint.Text, out disText);
         }
     }
 }
