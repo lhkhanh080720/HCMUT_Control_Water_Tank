@@ -1,7 +1,4 @@
-#include <LiquidCrystal_I2C.h>
-#include <LiquidCrystal.h>
 #include <Wire.h> 
-LiquidCrystal_I2C lcd(0x27,16,2); //LCD 16x02, địa chỉ I2C là 0X27
 const int trig = 8; //Khai báo chân trig nối với chân số 8 là hằng số
 const int echo = 7; //Khai báo chân echo nối với chân số 7 là hằng số
 const int in3 = 5;
