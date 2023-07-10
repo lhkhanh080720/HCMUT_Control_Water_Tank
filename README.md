@@ -19,12 +19,14 @@ Use C# to display as well as control.
 - Use the PID controller to control the water level of the SetPoint.
 ![example](Images/pic4.png)
 
-**Code**: [link code][1]
+**Code**: 
+- [link code Arduino][1]
+- [link code C#][2]
 ***
 # REPORT
-[link report][2]
+[link report][3]
 
-[1]: <https://github.com/lhkhanh080720/HCMUT_Parking_System/tree/main/Code/Main_STM/Main>
-[2]: <https://github.com/lhkhanh080720/HCMUT_Parking_System/blob/main/Step%201/MAIN_DO_AN.mp4>
-[3]: <https://github.com/lhkhanh080720/HCMUT_Parking_System/blob/main/Report/B%C3%A1o%20c%C3%A1o%20%C4%90%E1%BB%93%20%C3%A1n%20(L%C3%AA%20H%E1%BB%AFu%20Kh%C3%A1nh%20-%20B%C3%B9i%20Trung%20Ki%C3%AAn).pdf>
+[1]: <https://github.com/lhkhanh080720/HCMUT_Control_Water_Tank/blob/main/NMDKTM_CODE_MAIN/NMDKTM_CODE_MAIN.ino>
+[2]: <https://github.com/lhkhanh080720/HCMUT_Control_Water_Tank/tree/main/Software%20Display%20With%20C%23/NMDKTM/NMDKTM/Control%20by%20PID/Release>
+[3]: <https://github.com/lhkhanh080720/HCMUT_Control_Water_Tank/blob/main/Report/Bao%20cao%20nhom%203.pdf>
 
